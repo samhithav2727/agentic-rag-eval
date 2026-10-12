@@ -1,0 +1,20 @@
+{
+  "vector": {
+    "faithfulness": 0.9,
+    "answer_relevancy": 0.901,
+    "context_precision": 0.65,
+    "context_recall": 0.9
+  },
+  "hybrid_rerank": {
+    "faithfulness": 0.93,
+    "answer_relevancy": 0.877,
+    "context_precision": 0.842,
+    "context_recall": 0.8
+  },
+  "agentic": {
+    "faithfulness": 0.989,
+    "answer_relevancy": 0.902,
+    "context_precision": 0.723,
+    "context_recall": 0.8
+  }
+}

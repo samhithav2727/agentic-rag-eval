@@ -1,0 +1,22 @@
+[
+  {"question": "What is the 'lost in the middle' finding?",
+   "reference": "Language models perform best when relevant information is at the beginning or end of the input context, and performance degrades significantly when it is in the middle."},
+  {"question": "What does Self-RAG train a language model to do?",
+   "reference": "It trains a model to retrieve on demand and to generate and reflect on its own outputs using special reflection tokens."},
+  {"question": "What are the two main components of the RAG model by Lewis et al.?",
+   "reference": "A pre-trained seq2seq generator (BART) and a non-parametric memory, a dense vector index of Wikipedia accessed with a pre-trained neural retriever (DPR)."},
+  {"question": "What is the difference between RAG-Sequence and RAG-Token?",
+   "reference": "RAG-Sequence uses the same retrieved document to generate the whole output sequence, while RAG-Token can use a different document for each generated token."},
+  {"question": "What architecture does the Transformer paper propose?",
+   "reference": "A sequence transduction model based solely on attention mechanisms, dispensing with recurrence and convolutions."},
+  {"question": "How is scaled dot-product attention computed?",
+   "reference": "Dot products of the query with all keys are computed, divided by the square root of the key dimension, and a softmax gives the weights applied to the values."},
+  {"question": "Why does the Transformer use multi-head attention?",
+   "reference": "It lets the model jointly attend to information from different representation subspaces at different positions."},
+  {"question": "What reflection tokens does Self-RAG use?",
+   "reference": "Retrieve, plus critique tokens for relevance (ISREL), support (ISSUP), and usefulness (ISUSE)."},
+  {"question": "Which tasks were used to study long-context behavior in the lost in the middle paper?",
+   "reference": "Multi-document question answering and key-value retrieval."},
+  {"question": "What positional encoding does the Transformer use?",
+   "reference": "Sine and cosine functions of different frequencies."}
+]
